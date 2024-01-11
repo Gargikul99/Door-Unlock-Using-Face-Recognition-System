@@ -10,7 +10,7 @@ def alertMail():
     msg = EmailMessage()
     msg['Subject'] = 'SECURITY ALERT !!'
     msg['From'] = EMAIL_ADDRESS
-    msg['To'] = 'gargikulkarni1999@gmail.com'
+    msg['To'] = '<email address>'
     msg.set_content('An intruder is on your door')
     msg.add_attachment('images/capture.jpg')
 
